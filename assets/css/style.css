@@ -1,4 +1,4 @@
-﻿@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800";
 
 /*!important*/
 :focus {
@@ -134,7 +134,7 @@ svg {
     background: var(--feed-color);
     border-bottom: .063em solid var(--background);
     display: flex;
-    height: 5em;
+    height: auto;
     margin: 0 auto;
     text-align: center;
     width: 100%
@@ -147,7 +147,6 @@ svg {
     font-size: 2.219em;
     font-weight: 800;
     letter-spacing: -.0375em;
-    line-heingt: 5em;
     margin: 0;
     padding: .25em .656em
 }
