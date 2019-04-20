@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta content="Kites is a simple way to share your mind with everyone!" name="description">
+		<meta content="" name="keywords">
+		<meta content="" name="author">
+		<link href="assets/images/favicon.ico" rel="shortcut icon">
+		<title>
+			Feed
+		</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">
+		</script>
+	</head>
+	<body class="pattern bright-theme">
+		<div class="preloader">
+			<div class="spinner">
+				<span></span><span></span><span></span><span></span>
+			</div>
+		</div>
+
+		<div class="pop-up-win-form">
+			<div class="pop-up-win">
+				<form class="input-form">
+					<input class="form-control new-post-title" placeholder="Title" type="text"> <input class="form-control new-post-username" placeholder="Username" type="text"> 
+
+					<textarea class="form-control new-post-body" placeholder="Type your message here" rows="8"></textarea>
+					<div class="action">
+						<button class="back pop-up-win-form-close-left">Back</button> <button class="btn btn-primary confirm pop-up-win-form-close-right" type="submit">Confirm</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="feed">
+			<div class="sidebar">
+				<h1 class="logotype">
+					Kites
+				</h1>
+
+				<div class="switch-theme">
+					<input hidden="" id="switch" type="checkbox"> <label class="switch" for="switch"></label>
+				</div>
+			</div>
+
+			<div class="area grow scrollable">
+				<div class="information">
+					<div class="to-close">
+						&#215;
+					</div>
+					<!--Kites is a simple way to share your mind with everyone! All you need is to click on the button below:-->
+				</div>
+
+				<div id="root">
+				</div>
+			</div>
+			<button class="send-a-kite"><span>Write</span>
+			<div class="icon">
+				<svg height="30.87" style="isolation:isolate" viewbox="0 48.996 32 25.998" width="38" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<path d="M 1.554 68.531 C 1.792 68.651 2.049 68.733 2.315 68.78 L 1.902 69.37 C 1.818 69.489 1.764 69.626 1.742 69.77 L 1.127 73.919 C 1.075 74.27 1.226 74.621 1.517 74.824 C 1.808 75.028 2.189 75.05 2.501 74.881 L 5.974 72.999 C 6.454 73.866 7.378 74.455 8.437 74.455 C 9.156 74.455 9.814 74.183 10.312 73.737 C 10.81 74.183 11.467 74.455 12.187 74.455 C 13.738 74.455 14.999 73.193 14.999 71.642 L 14.999 71.283 C 16.743 72.131 18.685 72.579 20.624 72.579 C 22.628 72.579 24.614 72.12 26.375 71.251 L 26.375 73.517 C 26.375 73.842 26.543 74.144 26.819 74.315 C 27.095 74.485 27.44 74.502 27.731 74.356 L 31.482 72.48 C 31.799 72.321 32 71.997 32 71.642 L 32 60.388 C 32 59.87 31.58 59.45 31.062 59.45 C 29.569 59.45 25.946 59.45 24.592 59.45 L 17.978 56.213 L 20.491 52.623 C 20.788 52.199 20.685 51.614 20.26 51.317 L 17.189 49.166 C 16.765 48.869 16.18 48.972 15.883 49.396 C 15.486 49.963 12.953 53.582 12.559 54.145 C 11.789 53.741 10.867 53.743 10.282 53.997 L 6.715 55.547 C 6.198 55.772 5.765 56.142 5.462 56.618 L 0.343 64.673 C 0.011 65.196 -0.127 66.094 0.143 66.904 C 0.381 67.617 0.882 68.195 1.554 68.531 L 1.554 68.531 L 1.554 68.531 Z M 3.257 72.339 L 3.565 70.264 L 4.403 69.066 C 4.762 69.591 5.251 70.02 5.824 70.307 L 5.101 71.34 L 3.257 72.339 L 3.257 72.339 Z M 8.437 72.58 C 7.92 72.58 7.499 72.159 7.499 71.642 L 7.499 71.183 L 7.835 70.704 L 9.374 70.704 L 9.374 71.642 C 9.374 72.159 8.954 72.58 8.437 72.58 L 8.437 72.58 L 8.437 72.58 Z M 12.187 72.58 C 11.67 72.58 11.249 72.159 11.249 71.642 L 11.249 70.704 L 13.124 70.704 L 13.124 71.642 C 13.124 72.159 12.704 72.58 12.187 72.58 L 12.187 72.58 L 12.187 72.58 Z M 30.125 71.062 L 28.25 72 L 28.25 61.326 L 30.125 61.326 L 30.125 71.062 L 30.125 71.062 Z M 23.963 61.23 C 24.091 61.293 24.232 61.326 24.375 61.326 L 26.375 61.326 L 26.375 69.174 C 25.743 69.419 23.781 70.704 20.625 70.704 C 17.279 70.704 15.218 69.221 14.481 68.927 C 14.347 68.86 14.2 68.828 14.062 68.828 L 7.499 68.828 C 6.54 68.828 5.748 68.105 5.638 67.175 C 5.667 67.039 5.664 66.899 5.633 66.765 C 5.728 65.819 6.528 65.077 7.499 65.077 L 13.285 65.077 C 15.246 65.077 17.089 64.313 18.475 62.927 C 18.841 62.56 18.841 61.967 18.475 61.6 C 18.109 61.234 17.515 61.234 17.149 61.6 C 16.117 62.633 14.745 63.201 13.285 63.201 L 13.087 63.201 L 16.889 57.769 L 23.963 61.23 L 23.963 61.23 Z M 14.73 54.313 L 16.266 55.389 L 10.798 63.201 L 8.508 63.201 C 9.306 62.063 13.999 55.358 14.73 54.313 L 14.73 54.313 L 14.73 54.313 Z M 16.881 51.24 L 18.417 52.316 L 17.341 53.853 L 15.806 52.777 L 16.881 51.24 L 16.881 51.24 Z M 1.956 65.631 L 7.045 57.625 C 7.145 57.466 7.29 57.343 7.462 57.268 L 10.985 55.737 C 11.142 55.691 11.303 55.688 11.455 55.722 L 6 63.515 C 4.847 64.021 3.995 65.089 3.794 66.372 C 3.623 66.853 2.878 67.097 2.392 66.854 C 1.935 66.625 1.753 66.082 1.956 65.631 Z" fill="var(--text-color)">
+				</path></svg>
+			</div></button>
+		</div>
+		<script src="assets/js/go-up.js">
+		</script> 
+		<script src="assets/js/index.js">
+		</script> 
+		<script src="assets/js/preloader.js">
+		</script> 
+		<script src="assets/js/send.js">
+		</script> 
+		<script src="assets/js/switch.js">
+		</script> 
+		<script src="assets/js/to-close.js">
+		</script>
+	</body>
+</html>
