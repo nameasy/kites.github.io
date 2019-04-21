@@ -14,7 +14,7 @@ body {
     background: var(--background);
     color: var(--text-color);
     font-family: "Open Sans", sans-serif;
-    font-size: 150%;
+    font-size: 100%;
     font-weight: 300;
     margin: 0;
     overflow: hidden;
