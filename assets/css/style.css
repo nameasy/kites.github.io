@@ -144,7 +144,7 @@ svg {
     color: var(--text-color);
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
-    font-size: 150%;
+    font-size: 2.219em;
     font-weight: 800;
     letter-spacing: -.0375em;
     margin: 0;
