@@ -14,7 +14,7 @@ body {
     background: var(--background);
     color: var(--text-color);
     font-family: "Open Sans", sans-serif;
-    font-size: 100%;
+    font-size: 150%;
     font-weight: 300;
     margin: 0;
     overflow: hidden;
@@ -144,7 +144,7 @@ svg {
     color: var(--text-color);
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
-    font-size: 2.219em;
+    font-size: 150%;
     font-weight: 800;
     letter-spacing: -.0375em;
     margin: 0;
