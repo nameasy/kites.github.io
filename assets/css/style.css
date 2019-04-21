@@ -486,7 +486,7 @@ button.confirm {
     margin: .25em .625em
 }
 
-@media only screen and (min-width: 47.5em) {
+@media only screen and (min-width: 960px) {
     .sidebar {
         background: var(--feed-color);
         border-right: .063em solid var(--background);
@@ -897,7 +897,7 @@ button.confirm {
     }
 }
 
-@media only screen and (min-width: 32.5em) and (max-width: 47.5em) {
+@media only screen and (min-width: 720px) and (max-width: 960px) {
     .sidebar {
         background: var(--feed-color);
         border-right: .063em solid var(--background);
